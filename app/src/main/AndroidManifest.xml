@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.saif.yuvajayho">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GunturWestSchedule"></activity>
+        <activity android:name=".GunturWestEvents" />
+        <activity android:name=".GunturWest" />
+        <activity android:name=".GunturEastEvents" />
+        <activity android:name=".GunturEastSchedule" />
+        <activity android:name=".GunturEast" />
+        <activity android:name=".BaptalaEvents" />
+        <activity android:name=".BaptalaSchedule" />
+        <activity android:name=".Baptala" />
+        <activity android:name=".TenaliEvents" />
+        <activity android:name=".TenaliSchedule" />
+        <activity android:name=".Tenali" />
+        <activity
+            android:name=".ManglagiriEvents"
+            android:label="@string/title_activity_manglagiri_events"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ManglagiriSchedule" />
+        <activity android:name=".Manglagiri" />
+        <activity android:name=".PonnuruSchedule" />
+        <activity android:name=".PonnuruEvents" />
+        <activity android:name=".Ponnuru" />
+        <activity android:name=".TadikondaEvents" />
+        <activity android:name=".TadikondaSchedule" />
+        <activity android:name=".TadikondaMP" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".CompletedSchemes" />
+        <activity android:name=".MlaHome" />
+        <activity android:name=".JayActEvents" />
+        <activity android:name=".RegisterUsers" />
+        <activity android:name=".Schedule" />
+        <activity android:name=".JayProfile" />
+        <activity android:name=".SpeechesInParliament" />
+        <activity android:name=".AboutMp" />
+        <activity android:name=".SplashActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
