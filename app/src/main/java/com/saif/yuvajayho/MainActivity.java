@@ -1,28 +1,42 @@
 package com.saif.yuvajayho;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
 
-    private static  int SPLASH_TIME_OUT = 3500;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        new Handler().postDelayed(new Runnable() {
+
+        Button mp = (Button) findViewById(R.id.submit);
+        mp.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void run() {
-                Intent splashIntent = new Intent(MainActivity.this,SplashActivity.class);
-                startActivity(splashIntent);
-                finish();
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,Home.class));
+
             }
-        }
-        ,SPLASH_TIME_OUT);
+        });
+
+
+
+
+        /*Button quit = ( Button )findViewById(R.id.button13);
+        quit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+                System.exit(0);
+            }
+        });*/
     }
 }

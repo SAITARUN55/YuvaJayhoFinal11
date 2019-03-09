@@ -1,5 +1,7 @@
 package com.saif.yuvajayho;
 
+import android.app.Activity;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,32 +10,22 @@ import android.content.Intent;
 
 
 public class SplashActivity extends AppCompatActivity {
+    private static  int SPLASH_TIME_OUT = 3500;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        Button mp = (Button) findViewById(R.id.button2);
-        mp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(SplashActivity.this,AboutMp.class));
-
-            }
-        });
-
-
-
-
-        Button quit = ( Button )findViewById(R.id.button13);
-        quit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-                System.exit(0);
-            }
-        });
+        new Handler().postDelayed(new Runnable() {
+                                      @Override
+                                      public void run() {
+                                          Intent splashIntent = new Intent(SplashActivity.this,MainActivity.class);
+                                          startActivity(splashIntent);
+                                          finish();
+                                      }
+                                  }
+                ,SPLASH_TIME_OUT);
     }
 
 }

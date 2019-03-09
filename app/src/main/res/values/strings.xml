@@ -14,8 +14,15 @@
     <string name="navbar1"></string>
     <string name="about_guntur_mp">Guntur M.P Profile</string>
     <string name="profile">Profile</string>
-    <string name="speeches_in_parliament">Speeches in Parliament</string>
     <string name="schedules">Schedule</string>
     <string name="title_activity_manglagiri_events">ManglagiriEvents</string>
+    <string name="todo">TODO</string>
+    <string name="name">name *</string>
+    <string name="submit">submit</string>
+    <string name="guntur_mp_profile">Guntur MP Profile</string>
+    <string name="galla_jayadev">Galla Jayadev</string>
+    <string name="speeches_in_parliament">Speeches in Parliament</string>
+    <string name="activities_events">activities /events</string>
+    <string name="activities_events_photos_and_videos">Activities / Events (Photos and Videos)</string>
 
 </resources>
