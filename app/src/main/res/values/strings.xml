@@ -24,5 +24,19 @@
     <string name="speeches_in_parliament">Speeches in Parliament</string>
     <string name="activities_events">activities /events</string>
     <string name="activities_events_photos_and_videos">Activities / Events (Photos and Videos)</string>
+    <string name="name1">Name</string>
+    <string name="tadikonda_mla_profile">Tadikonda M.L.A Profile</string>
+    <string name="speeches_in_parliament2">speeches in parliament</string>
+    <string name="activities_events1">activities /events</string>
+    <string name="home1">home</string>
+    <string name="mangalagiri_m_l_a_profile">Mangalagiri M.L.A Profile</string>
+    <string name="bapatla_m_l_a_profile">Bapatla M.L.A Profile</string>
+    <string name="guntur_east_m_l_a_profile">Guntur East M.L.A Profile</string>
+    <string name="feedback1">Feedback</string>
+    <string name="feedback_on_m_p">Feedback on M.P</string>
+    <string name="feedback_on_m_p1">Feedback on M.P</string>
+    <string name="submit1">Submit</string>
+    <string name="feedback_on_m_l_a">Feedback on M.L.A</string>
+    <string name="about_guntur_m_l_a_s">About Guntur M.L.A\'s</string>
 
 </resources>

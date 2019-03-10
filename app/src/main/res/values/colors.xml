@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="Yellow">#F9DB22</color>
-    <color name="Black">#070809</color>
+    <color name="Black">#080A0C</color>
     <color name="Blue">#FF0F9BDA</color>
+    <color name="White">#FFF4F6F8</color>
 </resources>
